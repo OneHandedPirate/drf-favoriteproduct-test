@@ -1,0 +1,15 @@
+services:
+  postgres:
+    container_name: django-favorites-db
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: "${DB__USER}"
+      POSTGRES_PASSWORD: "${DB__PASSWORD}"
+      POSTGRES_DB: "${DB__NAME}"
+    ports:
+      - "${DB__PORT}:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "psql -U ${DB__USER}", "pg_isready", "-U", "${DB__USER}", "-d", "${DB__NAME}" ]
+      interval: 3s
+      timeout: 10s
+      retries: 10

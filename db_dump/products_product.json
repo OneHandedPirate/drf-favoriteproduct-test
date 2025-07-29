@@ -1,0 +1,332 @@
+[
+  {
+    "model": "products.product",
+    "pk": "b8510cbd-ed3c-4e6e-af14-02d0f495a04f",
+    "fields": {
+      "created_at": "2025-07-29T12:00:00Z",
+      "updated_at": "2025-07-29T12:00:00Z",
+      "name": "Смартфон Zeta",
+      "description": "Описание товара 1",
+      "price": "1000.00"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "c07a728a-2a8c-463c-b0c1-407f77d6a163",
+    "fields": {
+      "created_at": "2025-07-29T12:01:00Z",
+      "updated_at": "2025-07-29T12:01:00Z",
+      "name": "Планшет MegaTab",
+      "description": "Описание товара 2",
+      "price": "1123.45"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "33682290-89c3-42ef-8894-0508890be3ef",
+    "fields": {
+      "created_at": "2025-07-29T12:02:00Z",
+      "updated_at": "2025-07-29T12:02:00Z",
+      "name": "Наушники BassPro",
+      "description": "Описание товара 3",
+      "price": "1246.90"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "efd444cc-d166-48c5-a8f0-04b270d7b7dd",
+    "fields": {
+      "created_at": "2025-07-29T12:03:00Z",
+      "updated_at": "2025-07-29T12:03:00Z",
+      "name": "Клавиатура Clicky",
+      "description": "Описание товара 4",
+      "price": "1370.35"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "0153c699-5ce3-4d4c-8ff2-d80de3565b11",
+    "fields": {
+      "created_at": "2025-07-29T12:04:00Z",
+      "updated_at": "2025-07-29T12:04:00Z",
+      "name": "Монитор UltraWide",
+      "description": "Описание товара 5",
+      "price": "1493.80"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "d0d797f8-5dda-4fcb-b2a1-7431dface775",
+    "fields": {
+      "created_at": "2025-07-29T12:05:00Z",
+      "updated_at": "2025-07-29T12:05:00Z",
+      "name": "Мышь SpeedMouse",
+      "description": "Описание товара 6",
+      "price": "1617.25"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "3c213085-466f-4633-a5ef-52259ed18ca7",
+    "fields": {
+      "created_at": "2025-07-29T12:06:00Z",
+      "updated_at": "2025-07-29T12:06:00Z",
+      "name": "Веб-камера Zoomer",
+      "description": "Описание товара 7",
+      "price": "1740.70"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "57ea13d3-22b6-47dc-8df5-119c568a0bfb",
+    "fields": {
+      "created_at": "2025-07-29T12:07:00Z",
+      "updated_at": "2025-07-29T12:07:00Z",
+      "name": "Колонки SoundBlast",
+      "description": "Описание товара 8",
+      "price": "1864.15"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "4d100b36-b95e-4c58-a0db-9b06a6262d4b",
+    "fields": {
+      "created_at": "2025-07-29T12:08:00Z",
+      "updated_at": "2025-07-29T12:08:00Z",
+      "name": "Ноутбук WorkPro",
+      "description": "Описание товара 9",
+      "price": "1987.60"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "8aa1cfae-daa8-415f-9d9a-4b38b920bda8",
+    "fields": {
+      "created_at": "2025-07-29T12:09:00Z",
+      "updated_at": "2025-07-29T12:09:00Z",
+      "name": "Сетевой фильтр SurgeSafe",
+      "description": "Описание товара 10",
+      "price": "2111.05"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "4373da71-02aa-427b-8826-76e978d5376e",
+    "fields": {
+      "created_at": "2025-07-29T12:10:00Z",
+      "updated_at": "2025-07-29T12:10:00Z",
+      "name": "SSD 1TB FlashX",
+      "description": "Описание товара 11",
+      "price": "2234.50"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "e3933250-f0dc-466c-80d4-96357609bd24",
+    "fields": {
+      "created_at": "2025-07-29T12:11:00Z",
+      "updated_at": "2025-07-29T12:11:00Z",
+      "name": "Жесткий диск 2TB",
+      "description": "Описание товара 12",
+      "price": "2357.95"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "e914182b-00f6-472b-b595-3802a839c733",
+    "fields": {
+      "created_at": "2025-07-29T12:12:00Z",
+      "updated_at": "2025-07-29T12:12:00Z",
+      "name": "Роутер WiFi 6",
+      "description": "Описание товара 13",
+      "price": "2481.40"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "a8efbf3a-9f59-4e19-9f87-60212f1346c4",
+    "fields": {
+      "created_at": "2025-07-29T12:13:00Z",
+      "updated_at": "2025-07-29T12:13:00Z",
+      "name": "Гарнитура Voicer",
+      "description": "Описание товара 14",
+      "price": "2604.85"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "bd1448df-fa31-4fbb-9b64-7599c0ed6833",
+    "fields": {
+      "created_at": "2025-07-29T12:14:00Z",
+      "updated_at": "2025-07-29T12:14:00Z",
+      "name": "Смарт-часы TimePro",
+      "description": "Описание товара 15",
+      "price": "2728.30"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "a4053108-0873-419b-b058-ab8f69d68a1f",
+    "fields": {
+      "created_at": "2025-07-29T12:15:00Z",
+      "updated_at": "2025-07-29T12:15:00Z",
+      "name": "Геймпад UltraGrip",
+      "description": "Описание товара 16",
+      "price": "2851.75"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "1e97365d-42ba-4dd3-a7d7-a746b37a13f5",
+    "fields": {
+      "created_at": "2025-07-29T12:16:00Z",
+      "updated_at": "2025-07-29T12:16:00Z",
+      "name": "Коврик для мыши XXL",
+      "description": "Описание товара 17",
+      "price": "2975.20"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "a6b7b4e1-c49b-4fe7-a8c2-76c1ccffe32e",
+    "fields": {
+      "created_at": "2025-07-29T12:17:00Z",
+      "updated_at": "2025-07-29T12:17:00Z",
+      "name": "Принтер LaserJet",
+      "description": "Описание товара 18",
+      "price": "3098.65"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "b6ed6d54-8a3a-4d9e-a6ce-e3d64e3f83d6",
+    "fields": {
+      "created_at": "2025-07-29T12:18:00Z",
+      "updated_at": "2025-07-29T12:18:00Z",
+      "name": "Сканер ScanMax",
+      "description": "Описание товара 19",
+      "price": "3222.10"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "20914173-9e73-47af-921f-77c538450c7a",
+    "fields": {
+      "created_at": "2025-07-29T12:19:00Z",
+      "updated_at": "2025-07-29T12:19:00Z",
+      "name": "Проектор BeamPro",
+      "description": "Описание товара 20",
+      "price": "3345.55"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "25cf7654-8a14-40ad-b463-1b774145e918",
+    "fields": {
+      "created_at": "2025-07-29T12:20:00Z",
+      "updated_at": "2025-07-29T12:20:00Z",
+      "name": "USB хаб MultiPort",
+      "description": "Описание товара 21",
+      "price": "3469.00"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "1bc05b95-ddbc-4878-8761-98a727439ab9",
+    "fields": {
+      "created_at": "2025-07-29T12:21:00Z",
+      "updated_at": "2025-07-29T12:21:00Z",
+      "name": "Powerbank 20000mAh",
+      "description": "Описание товара 22",
+      "price": "3592.45"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "e9ee8a60-7832-4302-a8b0-cbbd0d21768c",
+    "fields": {
+      "created_at": "2025-07-29T12:22:00Z",
+      "updated_at": "2025-07-29T12:22:00Z",
+      "name": "HDMI кабель",
+      "description": "Описание товара 23",
+      "price": "3715.90"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "510fd291-2f15-4984-9e3a-6650d26971a9",
+    "fields": {
+      "created_at": "2025-07-29T12:23:00Z",
+      "updated_at": "2025-07-29T12:23:00Z",
+      "name": "Док-станция DeskMate",
+      "description": "Описание товара 24",
+      "price": "3839.35"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "9669fb33-d524-4b3e-a931-63e00998351b",
+    "fields": {
+      "created_at": "2025-07-29T12:24:00Z",
+      "updated_at": "2025-07-29T12:24:00Z",
+      "name": "Селфи-палка Flexi",
+      "description": "Описание товара 25",
+      "price": "3962.80"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "a1c3ee53-c8aa-4499-b95f-a8c770ece6af",
+    "fields": {
+      "created_at": "2025-07-29T12:25:00Z",
+      "updated_at": "2025-07-29T12:25:00Z",
+      "name": "Гейм-кресло ProSeat",
+      "description": "Описание товара 26",
+      "price": "4086.25"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "d6c79091-e444-4438-af36-e2cf022586b1",
+    "fields": {
+      "created_at": "2025-07-29T12:26:00Z",
+      "updated_at": "2025-07-29T12:26:00Z",
+      "name": "Портативная колонка",
+      "description": "Описание товара 27",
+      "price": "4209.70"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "69ffd885-461d-4030-a007-11b562cbbad3",
+    "fields": {
+      "created_at": "2025-07-29T12:27:00Z",
+      "updated_at": "2025-07-29T12:27:00Z",
+      "name": "Чехол для ноутбука",
+      "description": "Описание товара 28",
+      "price": "4333.15"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "8a8de40e-85dd-4f69-afda-bda30f7595ca",
+    "fields": {
+      "created_at": "2025-07-29T12:28:00Z",
+      "updated_at": "2025-07-29T12:28:00Z",
+      "name": "Пылесос-робот",
+      "description": "Описание товара 29",
+      "price": "4456.60"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": "5582ba3d-310b-4834-84db-bb49afe0db1c",
+    "fields": {
+      "created_at": "2025-07-29T12:29:00Z",
+      "updated_at": "2025-07-29T12:29:00Z",
+      "name": "Флешка 128GB",
+      "description": "Описание товара 30",
+      "price": "4580.05"
+    }
+  }
+]
