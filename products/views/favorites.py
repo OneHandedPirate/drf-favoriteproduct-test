@@ -1,19 +1,40 @@
 import uuid
 
 from django.db.models import QuerySet
+from drf_spectacular.utils import OpenApiExample, OpenApiResponse, extend_schema
 from rest_framework import generics, permissions, request, response, status, views
 from rest_framework_simplejwt import authentication
 
 from base.pagination import DefaultPagination
+from base.serializers import DefaultResponseSerializer, EmptyResponseSerializer
 from products.dtos import AddFavoriteProductDTO, DeleteFavoriteProductDTO
 from products.models import FavoriteProduct, Product
 from products.serializers import ProductSerializer
 from products.services import AddFavoriteProductService, DeleteFavoriteProductService
 
 
+@extend_schema(
+    request=None,
+    responses={
+        201: OpenApiResponse(
+            response=DefaultResponseSerializer,
+            description="Created",
+            examples=[
+                OpenApiExample(
+                    name="Success",
+                    value={
+                        "detail": "The product Computer has been added to your favorites"
+                    },
+                    response_only=True,
+                )
+            ],
+        )
+    },
+)
 class AddProductApiView(views.APIView):
     """Add product to favorites by id"""
 
+    serializer_class = DefaultResponseSerializer
     permission_classes = (permissions.IsAuthenticated,)
     authentication_classes = (authentication.JWTAuthentication,)
 
@@ -46,6 +67,9 @@ class ListFavoriteProductsApiView(generics.ListAPIView):
         ).order_by("-created_at")
 
 
+@extend_schema(
+    responses=EmptyResponseSerializer,
+)
 class DeleteFavoriteProductApiView(views.APIView):
     """Delete favorite product by id"""
 

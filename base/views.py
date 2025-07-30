@@ -1,6 +1,13 @@
+from drf_spectacular.utils import OpenApiExample, OpenApiTypes, extend_schema
 from rest_framework import permissions, request, response, status, views
 
 
+@extend_schema(
+    responses=OpenApiTypes.OBJECT,
+    examples=[
+        OpenApiExample(name="Success", value={"status": "OK"}, response_only=True)
+    ],
+)
 class CheckStatusAPIView(views.APIView):
     """App healthcheck endpoint"""
 
