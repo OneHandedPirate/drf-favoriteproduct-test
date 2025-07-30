@@ -15,3 +15,6 @@ load_dev_data:
 
 start_dev:
 	uv run manage.py runserver
+
+run_tests:
+	uv run manage.py test
