@@ -25,7 +25,7 @@ class DeleteFavoriteProductService(BaseService):
                 favorite_product = FavoriteProduct.objects.get(
                     user=dto.user, product=product
                 )
-            except FavoriteProduct.DoesNotExits:
+            except FavoriteProduct.DoesNotExist:
                 raise ProductNotFoundInFavoritesException(
                     detail=f"The product {product.name} not found in your favorites list"
                 )
